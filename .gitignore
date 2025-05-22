@@ -1,0 +1,17 @@
+# Python/Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+db.sqlite3
+/media
+/staticfiles
+
+# Node/React
+node_modules/
+build/
+.env
+
+# General
+.DS_Store
