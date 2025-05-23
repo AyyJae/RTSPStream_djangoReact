@@ -8,8 +8,8 @@ import AddStreamForm from './components/AddStreamForm';
 import GridView from './components/GridView';
 import axios from 'axios';
 
-// Base API URL - change this to your deployed backend URL
-const API_BASE_URL = 'http://localhost:8000';
+// Base API URL - change this to your deployed backend URL, 'http://localhost:8000'
+const API_BASE_URL = 'https://rtspstream-djangoreact.onrender.com';
 
 function App() {
   const [streams, setStreams] = useState([]);
